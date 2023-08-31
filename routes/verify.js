@@ -1,5 +1,5 @@
 const express = require('express');
-const kickbox = require('kickbox').client(process.env.KICKBOX_API_KEY).kickbox();
+const kickbox = require('kickbox').client(process.env.KICKBOX_API_KEY_SANDBOX).kickbox();
 
 const router = express.Router();
 
